@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=form, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <form action="dashboard.html" onsubmit="return Authenticate()">
+        <div class="outer">
+        <div class="block">
+        <div class="login1">
+            <label for="Username">Username</label>
+            <input type="email" id="username" placeholder="Abc@email.com" required>
+        </div>
+        <div class="login2">
+            <label for="Password">Password</label>
+            <input type="password" id="password" placeholder="......." required>
+        </div>
+        <button class="Button">GO</button>
+        <label>
+            <input type="checkbox" checked="checked" name="remember" >
+            Remember Me
+        </label>
+    </div>
+</div>
+</form>
+<div id="toaster" class="toaster"></div>
+
+</body>
+<script src="Au.js"></script>
+</html>
